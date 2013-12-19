@@ -1,0 +1,60 @@
+
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkdownSharp.Portable", "MarkdownSharp.Portable\MarkdownSharp.Portable.csproj", "{8A586F47-173D-410B-A2C3-198DA593CA47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A586F47-173D-410B-A2C3-198DA593CA47}.Ad-Hoc|iPhone.ActiveCfg = Debug|Any CPU
+		{8A586F47-173D-410B-A2C3-198DA593CA47}.Ad-Hoc|iPhone.Build.0 = Debug|Any CPU
+		{8A586F47-173D-410B-A2C3-198DA593CA47}.AppStore|iPhone.ActiveCfg = Debug|Any CPU
+		{8A586F47-173D-410B-A2C3-198DA593CA47}.AppStore|iPhone.Build.0 = Debug|Any CPU
+		{8A586F47-173D-410B-A2C3-198DA593CA47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A586F47-173D-410B-A2C3-198DA593CA47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A586F47-173D-410B-A2C3-198DA593CA47}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{8A586F47-173D-410B-A2C3-198DA593CA47}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{8A586F47-173D-410B-A2C3-198DA593CA47}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{8A586F47-173D-410B-A2C3-198DA593CA47}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{8A586F47-173D-410B-A2C3-198DA593CA47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A586F47-173D-410B-A2C3-198DA593CA47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A586F47-173D-410B-A2C3-198DA593CA47}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{8A586F47-173D-410B-A2C3-198DA593CA47}.Release|iPhone.Build.0 = Release|Any CPU
+		{8A586F47-173D-410B-A2C3-198DA593CA47}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{8A586F47-173D-410B-A2C3-198DA593CA47}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = MarkdownSharp.Sample.Android\MarkdownSharp.Sample.Android.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.FileWidth = 120
+		$1.TabsToSpaces = False
+		$1.EolMarker = Unix
+		$1.inheritsSet = VisualStudio
+		$1.inheritsScope = text/plain
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.IndentSwitchBody = True
+		$2.BeforeMethodDeclarationParentheses = False
+		$2.BeforeMethodCallParentheses = False
+		$2.BeforeConstructorDeclarationParentheses = False
+		$2.BeforeDelegateDeclarationParentheses = False
+		$2.NewParentheses = False
+		$2.SpacesBeforeBrackets = False
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

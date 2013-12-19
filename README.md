@@ -21,30 +21,30 @@ Another option may be to [use pre-compiled regexes](http://msdn.microsoft.com/en
 
 Since configuration can still be done by passing in a instance of `MarkdownOptions`, you will need to do the logic the old constructor did for you before creating a new instance of `Markdown`.
 
-  var options = new MarkdownOptions();
-  var appSettings = ConfigurationManager.AppSettings;
-  foreach (string key in appSettings.Keys)
-  {
-      switch (key)
-      {
-          case "Markdown.AutoHyperlink":
-              options.AutoHyperlink = Convert.ToBoolean(settings[key]);
-              break;
-          case "Markdown.AutoNewlines":
-              options.AutoNewlines = Convert.ToBoolean(settings[key]);
-              break;
-          case "Markdown.EmptyElementSuffix":
-              options.EmptyElementSuffix = settings[key];
-              break;
-          case "Markdown.EncodeProblemUrlCharacters":
-              options.EncodeProblemUrlCharacters = Convert.ToBoolean(settings[key]);
-              break;
-          case "Markdown.LinkEmails":
-              options.LinkEmails = Convert.ToBoolean(settings[key]);
-              break;
-          case "Markdown.StrictBoldItalic":
-              options.StrictBoldItalic = Convert.ToBoolean(settings[key]);
-              break;
-      }
-  }
-  var markdown = new Markdown(options);
+    var options = new MarkdownOptions();
+    var appSettings = ConfigurationManager.AppSettings;
+    foreach (string key in appSettings.Keys)
+    {
+        switch (key)
+        {
+            case "Markdown.AutoHyperlink":
+                options.AutoHyperlink = Convert.ToBoolean(settings[key]);
+                break;
+            case "Markdown.AutoNewlines":
+                options.AutoNewlines = Convert.ToBoolean(settings[key]);
+                break;
+            case "Markdown.EmptyElementSuffix":
+                options.EmptyElementSuffix = settings[key];
+                break;
+            case "Markdown.EncodeProblemUrlCharacters":
+                options.EncodeProblemUrlCharacters = Convert.ToBoolean(settings[key]);
+                break;
+            case "Markdown.LinkEmails":
+                options.LinkEmails = Convert.ToBoolean(settings[key]);
+                break;
+            case "Markdown.StrictBoldItalic":
+                options.StrictBoldItalic = Convert.ToBoolean(settings[key]);
+                break;
+        }
+    }
+    var markdown = new Markdown(options);

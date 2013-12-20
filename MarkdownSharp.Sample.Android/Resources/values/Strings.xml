@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="markdown_input_placeholder">Markdown goes here...</string>
+    <string name="input_label">Markdown Input</string>
+    <string name="preview_label">HTML Preview</string>
+    <string name="app_name">MarkdownSharp.Sample.Android</string>
+</resources>

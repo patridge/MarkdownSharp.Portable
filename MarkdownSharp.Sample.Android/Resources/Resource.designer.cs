@@ -807,7 +807,7 @@ namespace MarkdownSharp.Sample.Android
 			public const int abs__toast_frame = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int Icon = 2130837616;
+			public const int icon = 2130837616;
 			
 			static Drawable()
 			{

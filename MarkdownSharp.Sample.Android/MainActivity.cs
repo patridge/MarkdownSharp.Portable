@@ -8,7 +8,7 @@ using Debug = System.Diagnostics.Debug;
 
 namespace MarkdownSharp.Sample.Android
 {
-    [Activity(Label = "@string/input_label", MainLauncher = true, Theme = "@android:style/Theme.NoTitleBar")]
+    [Activity(Icon = "@drawable/icon", Label = "@string/input_label", MainLauncher = true, Theme = "@android:style/Theme.NoTitleBar")]
     public class MainActivity : SherlockFragmentActivity, SherlockActionBar.ITabListener
     {
         Tab inputTab;

@@ -3,6 +3,20 @@ MarkdownSharp.Portable
 
 Fork of MarkdownSharp with a focus on making it a portable class library (PCL).
 
+## Usage
+
+    Markdown markdown = new Markdown();
+    string markdownHtml = markdown.Transform(someMarkdownText);
+    
+From there, you can dump that HTML into an Android `WebView`:
+
+    yourWebView.LoadData(markdownHtml, "text/html", null);
+    
+Or you can toss that HTML at an iOS `UIWebView`:
+
+    string contentDirectoryPath = Path.Combine(NSBundle.MainBundle.BundlePath, "Content/");
+    webView.LoadHtmlString(markdownHtml, new NSUrl(contentDirectoryPath, true));
+
 ## Why a fork?
 
 I really don't have a good reason to fork except that it looks like making this portable would break some existing functionality and/or execution expectations. I would happily submit this to the original project and point everyone hitting this repo back over there if it is ever the desired direction.

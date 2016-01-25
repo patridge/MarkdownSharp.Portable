@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>MarkdownSharp.Portable</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <title>MarkdownSharp.Portable</title>
     <authors>Adam Patridge,MarkdownSharp.Portable contributors,MarkdownSharp contributors</authors>
     <owners>Adam Patridge</owners>
@@ -10,7 +10,7 @@
     <projectUrl>https://github.com/patridge/MarkdownSharp.Portable/</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Fork of MarkdownSharp, adjusted for use as a portable class library (PCL).</description>
-    <releaseNotes>Created NuGet package (from code as of 2013-12-20).</releaseNotes>
+    <releaseNotes>Updated MarkdownSharp source (current as of 2016-01-24).</releaseNotes>
     <copyright>Copyright 2016 Adam Patridge</copyright>
     <tags>portable markdown xamarin android ios</tags>
   </metadata>

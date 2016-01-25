@@ -50,6 +50,9 @@ namespace MarkdownSharp.Sample.Forms
 				Content = new StackLayout() {
 					VerticalOptions = LayoutOptions.FillAndExpand,
 					HorizontalOptions = LayoutOptions.FillAndExpand,
+					Padding = new OnPlatform<Thickness>() {
+						iOS = new Thickness(0, 20, 0, 0),
+					},
 					Children = {
 						webView,
 					},
